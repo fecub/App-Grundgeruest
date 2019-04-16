@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dravnav_boxcontent"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Boxinhalte" />
+        <item
+            android:id="@+id/dravnav_packageprogress"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="Paketfortschritt" />
+        <item
+            android:id="@+id/dravnav_boxstatus"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Boxstatus" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_favorite_black_24dp"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+</menu>
